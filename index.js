@@ -18,12 +18,12 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift();
 }
 
-function appendName(name){
+function appendKitten(name){
   return [...kittens, name]
 }
 
 
-function prependName(name){
+function prependKitten(name){
   return [name, ...kittens]
 }
 
